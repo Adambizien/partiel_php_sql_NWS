@@ -1,7 +1,6 @@
 ### initialiser le projet ###
 (pour installer composer : 
-    sudo apt install composer
-    composer -v )
+    sudo apt install composer)
 
 
 il faut mettre le projet dans la racine (var/www/html)  :
