@@ -1,10 +1,8 @@
 ### initialiser le projet ###
 Si le projet est dans la racine de /var/www/html :
      - Accéder au projet 
-     - Mettre à jour les autoloaders:
-       sudo composer dump-autoload
-      -Installer PHPUnit en tant que dépendance de développement:
-       composer require phpunit/phpunit --dev
+     - Mettre à jour les autoloaders: sudo composer dump-autoload
+     - Installer PHPUnit en tant que dépendance de développement: composer require phpunit/phpunit --dev
      - Si cela ne fonctionne pas, effectuer le sinon
 
 Sinon, il faut enlever le fichier composer.json et composer.lock :
