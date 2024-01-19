@@ -11,7 +11,7 @@ Sinon, il faut enlever le fichier composer.json et composer.lock :
   - Initialiser le projet: composer init
   - Mettre à jour les autoloaders : sudo composer dump-autoload
   - Installer PHPUnit en tant que dépendance de développement : composer require phpunit/phpunit --dev
-  - Assurez-vous que les fichiers inclus dans votre projet sont correctement spécifiés dans la section autoload de votre composer.json sinon Changer tous les includes du projet si nécessaire.
+  - Assurez-vous que les fichiers inclus dans votre projet sont correctement spécifiés dans la section autoload de votre composer.json sinon Changer tous les includes du projet si nécessaire (changer 'use Adam\PartielPhpSqlNws' par ce qu'il vous donne).
 
 Le sinon fonctionne à coup sûr
 
