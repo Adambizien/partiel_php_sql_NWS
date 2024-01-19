@@ -1,6 +1,7 @@
 ### initialiser le projet ###
 
 il faut mettre le projet dans la racine (var/www/html)  :
+  - allez dans le projet.
   - enlever le fichier composer.json et composer.lock
   - Initialiser le projet: "composer init" (que des entrer si il vous demande de entrer n vous le faite )
   - "sudo composer install" (que des yes)
