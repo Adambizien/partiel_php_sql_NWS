@@ -1,0 +1,5 @@
+composer init
+
+sudo composer dump-autoload
+
+composer require phpunit/phpunit --dev
